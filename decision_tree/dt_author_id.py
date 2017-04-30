@@ -28,7 +28,7 @@ from sklearn import tree
 clf = tree.DecisionTreeClassifier(min_samples_split=40)
 clf = clf.fit(features_train, labels_train)
 pred=clf.predict(features_test)
-
+print len(features_train[0])
 
 
 #########################################################
